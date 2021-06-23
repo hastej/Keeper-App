@@ -1,0 +1,113 @@
+body{
+  margin: 0 0 0 0;
+  background-color:#f1e189;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
+}
+
+header{
+  background-color: #f39233;
+  color: white;
+  height: 100px;
+}
+
+header h1 {
+  padding-top: 20px;
+  margin-top: 0;
+  padding-left: 30px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+}
+
+footer{
+  display: block;
+  margin-left: 41%;
+  color: black;
+  font-size: 10px;
+  opacity: .5;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+
+}
+
+.card{
+  background-color: white;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 15px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 232px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+  display: inline-grid;
+
+}
+
+.card h4{
+  display: block;
+  margin: 0;
+  margin-top: 5px;
+  width: 232px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+}
+
+.card p{
+  display: block;
+  width: 232px;
+  
+  white-space: pre-wrap;
+    word-wrap: break-word;
+
+
+  margin: 0;
+}
+
+.formstyle{
+  margin-left: 36%;
+  text-align: center;
+  background-color: white;
+  display: inline-flex;
+  padding: 0 20px 20px 20px;
+  border-radius: 20px;
+  margin-right: 38%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+
+}
+
+form input{
+  width: 300px;
+  font-size: 1.5em;
+  border: none;
+  padding-top: 10px;
+
+}
+
+form input {
+  width: 300px;
+  font-size: 1.3em;
+  border: none;
+  padding-top: 10px;
+
+}
+
+form button{
+  position: relative;
+  left:120px;
+  top: 40px;
+}
+
+.delete-button{
+  width: 10px;
+  display: inline-grid;
+  border: none;
+  background-color: white;
+  position: relative;
+  left : 200px
+}
